@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    padding: 0;
+    height:200vh;
+    font-family: Montserrat, sans-serif;
+}
+
+h1{
+    font-size: 3rem;
+    color: white;
+
+}
+
+
+.image{
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    background-image: url("/image/about\ me.jpg");
+    top: 0;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    
+}
+
+.hero{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.navbar{
+    width: 100vw;
+    height: 10vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+}
+
+.navItems{
+    display: flex;
+    justify-content: space-around;
+    width: 40vw;
+    text-transform: capitalize;
+}
+
+.link{
+    color: white;
+    text-decoration: none;
+}
+
+.logo{
+    width: 50px;
+    height: 50px;
+    margin-left: 40px;
+}
+
+.textHome{
+    position: absolute;
+    text-transform: uppercase;
+    display: flex;
+   margin-left: 100px;
+}
+
